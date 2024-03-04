@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>TECHNIVAL 8.0</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="shortcut icon" href="tcp.png" type="image/x-icon">
+      <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+      <!--navbar-->
+      <nav class="flex flex-wrap justify-between items-center py-4 px-2 mb-8 top-0 sticky bg-white shadow-lg rounded-2xl z-10 sm:pl-12 sm:pr-12 pl-4 pr-6">
+        <div class="flex items-center gap-2">
+          <img src="tcp.png" alt="" class="w-10 h-10">
+          <span class="text-4xl font-bold font-sans">TCP</span>
+        </div>
+        <div class="flex items-center md:items-stretch gap-6">
+          <div class="hidden md:block">
+            <a href="#about" class="text-black sm:font-medium md:inline-block sm:text-xl text-4xl font-semibold">About Technival</a>
+          </div>
+          <div class="hidden md:block">
+            <a href="#event" class="text-black sm:font-medium md:inline-block sm:text-xl text-4xl font-semibold">Events</a>
+          </div>
+          <div class="hidden md:block">
+            <a href="#sponsors" class="text-black sm:font-medium md:inline-block sm:text-xl text-4xl font-semibold">Sponsors</a>
+          </div>
+          <div class="hidden md:block">
+            <a class="text-white bg-indigo-500 border-0 px-4 py-2 focus:outline-none hover:bg-indigo-600 rounded text-lg mt-[-5px]" href="#contact">Contact Us</a>
+          </div>
+          <div class="md:hidden">
+            <button onclick="toggleMenu()" type="button" class="text-white border-2 border-black bg-black rounded-3xl pt-1 pb-1 pl-4 pr-4 text-center font-medium shadow-md">Menu</button>
+          </div>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden flex flex-col mt-4">
+          <a href="#about" class="block text-black sm:font-medium sm:text-xl text-3xl font-bold mb-2">About Technival</a>
+          <a href="#event" class="block text-black sm:font-medium sm:text-xl text-3xl font-bold mb-2">Events</a>
+          <a href="#sponsors" class="block text-black sm:font-medium sm:text-xl text-3xl font-bold">Sponsors</a>
+          <a class="mt-4 text-white text-center bg-indigo-500 border-0 py-2 focus:outline-none hover:bg-indigo-600 rounded text-xl" href="#contact">Contact Us</a>
+        </div>
+      </nav>
+
+
+          <!--main hero-->
+          <section class="text-gray-600 body-font" id="main">
+            <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+              <div class="mt-[50px] mb-[1rem]">
+                <h1 class="title-font sm:text-5xl text-6xl text-center mb-4 font-bold text-white">REGISTER NOW!!</h1>
+              </div>
+              <div class="text-center lg:w-2/3 w-full">
+                <h1 class="title-font sm:text-9xl text-7xl mb-4 font-bold text-white">Technival 8.0</h1>
+                <p class="mb-4 leading-relaxed sm:text-4xl text-lg text-white">Annual Tech Fest of Kirori Mal College</p>
+                <p class=" mb-8 leading-relaxed sm:text-7xl text-4xl font-bold text-white">21st March 2024</p>
+                <div class="flex justify-center">
+                  <a class="inline-flex text-black bg-white font-bold border-0 py-2 px-6 focus:outline-none rounded text-xl" href="#event">Register Now</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+
+          <!--about-->
+          <section class="text-gray-600 body-font" id="about">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="xl:w-1/2 lg:w-3/4 w-full mx-auto text-center">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="inline-block w-8 h-8 text-gray-400 mb-8" viewBox="0 0 975.036 975.036">
+                  <path d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"></path>
+                </svg>
+                <p class="sm:text-2xl text-lg">TECHNIVAL is the flagship event of The Computer Prodigies, Department of Computer Science, Kirori Mal College. Get ready for an electrifying experience that will take you on a journey of endless possibilities and limitless imagination. This year's TECHNIVAL promises to be bigger, better, and more exciting than ever before. We have a wide range of tech and non-tech events lined up for you, including Code Uncode, FIFA, and much more. Whether you're a tech enthusiast, an aspiring engineer, or just someone who loves to have fun, we've got something for everyone. Join us for TECHNIVAL 8.0 and experience the thrill of innovation, the excitement of competition, and the joy of camaraderie. So don't miss out on this incredible opportunity to be a part of something truly extraordinary.</p>
+                <span class="inline-block h-1 w-10 rounded bg-indigo-500 mt-8 mb-6"></span>
+                <h2 class="text-black font-bold title-font tracking-wider text-4xl">ABOUT TECHNIVAL</h2>
+              </div>
+            </div>
+          </section>
+          
+          <!--events-->
+          <section class="text-gray-600 body-font" id="event">
+            <h1 class="font-bold sm:text-8xl text-7xl text-center text-black">Explore Events</h1>
+            <div class="container px-5 py-24 mx-auto">
+                <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+                    <div class="sm:w-32 sm:h-32 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                        <img src="photography.avif" class="sm:w-30 sm:h-32 h-36 w-36 rounded-full" alt="Hackathon Image">
+                    </div>
+                    <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">ShutterScape</h2>
+                        <p class="leading-relaxed text-base">Photograph the intricate details and vibrant colors of coding at Shutterscape. Showcase your talent behind the lens and compete for recognition and prizes at our Technival event.</p>
+                        <p class="text-gray-600 mt-2">Time: 10:00 AM - 1:00 PM</p>
+                        <a href="https://forms.gle/cYKR8kTJ3ZN2EK8cA" class="mt-3 text-indigo-500 inline-flex items-center">Register Now
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+                    <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                        <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Code Unocode</h2>
+                        <p class="leading-relaxed text-base">Showcase your coding skills in our Code Uncode event. Compete against other talented programmers and win exciting prizes!</p>
+                        <p class="text-gray-600 mt-2">Time: 10:00 AM - 11:00 AM</p>
+                        <a href="https://forms.gle/7oH5KpZwj9x7eTXQ8" class="mt-3 text-indigo-500 inline-flex items-center">Register Now
+                            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                <path d="M5 12h14M12 5l7 7-7 7"></path>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="sm:w-32 sm:order-none order-first sm:h-32 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                        <img src="code uncode.webp" class="sm:w-30 sm:h-32 h-36 w-36 rounded-full" alt="Robotics Competition Image">
+                    </div>
+                </div>
+                <!-- Add more events following the same format -->
+                <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+                  <div class="sm:w-32 sm:h-32 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                      <img src="prompt.png" class="sm:w-30 sm:h-32 h-36 w-36 rounded-full" alt="Hackathon Image">
+                  </div>
+                  <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                      <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Prompt Engineering</h2>
+                      <p class="leading-relaxed text-base">Showcase your Prompt skills in our Prompt Engineering event. Compete against other talented Prompt engineers and win exciting prizes!</p>
+                      <p class="text-gray-600 mt-2">Time: 10:00 AM - 11:00 AM</p>
+                      <a href="https://forms.gle/z3WCFGyBcrPsypGv8" class="mt-3 text-indigo-500 inline-flex items-center">Register Now
+                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                              <path d="M5 12h14M12 5l7 7-7 7"></path>
+                          </svg>
+                      </a>
+                  </div>
+              </div>
+              <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+                  <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                      <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Anime Quiz</h2>
+                      <p class="leading-relaxed text-base">Test your knowledge of all things anime at our Anime Quiz. Compete against other fans, show off your expertise, and win fantastic prizes while celebrating your favorite animated shows and characters.</p>
+                      <p class="text-gray-600 mt-2">Time: 12:00 PM - 2:00 PM</p>
+                      <a href="https://forms.gle/NwKusay8QBMKYbjy7" class="mt-3 text-indigo-500 inline-flex items-center">Register Now
+                          <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                              <path d="M5 12h14M12 5l7 7-7 7"></path>
+                          </svg>
+                      </a>
+                  </div>
+                  <div class="sm:w-32 sm:order-none order-first sm:h-32 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                      <img src="anime.jpg" class="sm:w-30 sm:h-32 h-36 w-36 rounded-full" alt="Robotics Competition Image">
+                  </div>
+              </div>
+
+
+              <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+                <div class="sm:w-32 sm:h-32 sm:mr-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                    <img src="chess.jpg" class="sm:w-30 sm:h-32 h-36 w-36 rounded-full" alt="Hackathon Image">
+                </div>
+                <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                    <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Chess</h2>
+                    <p class="leading-relaxed text-base">Witness the intensity and strategic brilliance unfold at our Chess Masters competition. Engage in mind-bending battles against fellow chess enthusiasts and claim victory for the ultimate title and rewards.</p>
+                    <p class="text-gray-600 mt-2">Time: 12:00 AM - 3:00 PM</p>
+                    <a href="https://forms.gle/rhCvswks4EQCMgTo7" class="mt-3 text-indigo-500 inline-flex items-center">Register Now
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
+                <div class="flex-grow sm:text-left text-center mt-6 sm:mt-0">
+                    <h2 class="text-gray-900 text-lg title-font font-medium mb-2">Whimsy Hour</h2>
+                    <p class="leading-relaxed text-base">Step into the spotlight and showcase your talent at our Whimsy Hours. Whether you're a singer, dancer, poet, or comedian, share your passion with a supportive audience and let your creativity shine.</p>
+                    <p class="text-gray-600 mt-2">Time: 2:00 PM - 4:00 PM</p>
+                    <a href="https://forms.gle/QUs68apc2GfQ4sAY8" class="mt-3 text-indigo-500 inline-flex items-center">Register Now
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                            <path d="M5 12h14M12 5l7 7-7 7"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="sm:w-32 sm:order-none order-first sm:h-32 sm:ml-10 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 flex-shrink-0">
+                    <img src="open mic.jpg" class="sm:w-30 sm:h-32 h-36 w-36 rounded-full" alt="Robotics Competition Image">
+                </div>
+            </div>
+                
+            </div>
+        </section>
+
+          
+          <!--sponsers-->
+          <section class="text-gray-600 body-font" id="sponsors">
+            <div class="container px-5 py-24 mx-auto flex flex-wrap">
+              <div class="w-full mb-20">
+                <h1 class="sm:text-8xl text-6xl font-bold title-font text-gray-900 text-center">Our Sponsors</h1>
+              </div>
+              <div class="sm:w-2/3 w-full mx-auto">
+                <div class="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4">
+                  <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="https://dummyimage.com/820x340">
+                </div>
+                <div class="flex flex-wrap -mx-2">
+                  <div class="px-2 w-1/2">
+                    <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+                      <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="https://dummyimage.com/542x460">
+                    </div>
+                  </div>
+                  <div class="px-2 w-1/2">
+                    <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+                      <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="https://dummyimage.com/542x420">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="sm:w-2/3 w-full mx-auto mt-4">
+                <div class="flex flex-wrap w-full bg-gray-100 py-32 px-10 relative mb-4">
+                  <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="https://dummyimage.com/820x340">
+                </div>
+                <div class="flex flex-wrap -mx-2">
+                  <div class="px-2 w-1/2">
+                    <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+                      <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="https://dummyimage.com/542x460">
+                    </div>
+                  </div>
+                  <div class="px-2 w-1/2">
+                    <div class="flex flex-wrap w-full bg-gray-100 sm:py-24 py-16 sm:px-10 px-6 relative">
+                      <img alt="gallery" class="w-full object-cover h-full object-center block opacity-25 absolute inset-0" src="https://dummyimage.com/542x420">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+         
+
+
+          <!--contact-->
+          <section class="text-gray-600 body-font relative" id="contact">
+            <h1 class="font-bold text-center text-black mb-[1rem] sm:text-8xl text-6xl">Contact Us</h1>
+            <div class="container px-5 py-24 mx-auto flex">
+              <div class="sm:w-full h-[30rem] sm:m-[3rem] rounded-3xl overflow-hidden sm:mr-10 m-[10px] p-10 flex items-end justify-start relative">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.220896711535!2d77.2051444749586!3d28.683038081786435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd91b4972361%3A0xd114167941a0a5ac!2sKirori%20Mal%20College!5e0!3m2!1sen!2sin!4v1708090640726!5m2!1sen!2sin" width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0" marginwidth="0" scrolling="no style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
+                <div class="bg-white relative flex flex-wrap py-6 rounded-3xl shadow-md">
+                  <div class="lg:w-1/2 px-6">
+                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">Address</h2>
+                    <p class="mt-1">Kirori Mal College, University of Delhi (North Campus)</p>
+                  </div>
+                  <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs">Gmail</h2>
+                    <a class="text-indigo-500 leading-relaxed" href="mailto:cs_tcp@kmc.du.ac.in">cs_tcp@kmc.du.ac.in</a>
+                    <h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4">Phone</h2>
+                    <p class="leading-relaxed">123-456-7890</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--footer-->
+          <footer class="text-gray-600 body-font">
+            <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+              <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                  <img src="tcp.png" alt="" class="sm:ml-8 w-12 h-12">
+                <span class="ml-3 text-xl">Technival 8.0</span>
+              </a>
+              <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2024 The Computer Prodigies —
+                <a href="https://vineetjassal.github.io/" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@vineetjassal</a>
+              </p>
+              <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a class="text-gray-500" href="https://www.facebook.com/cstcp/" target="_blank">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500" href="https://twitter.com/kmc__tcp" target="_blank">
+                  <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500" href="https://www.instagram.com/kmc.tcp/" target="_blank">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                    <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                  </svg>
+                </a>
+                <a class="ml-3 text-gray-500" href="https://www.linkedin.com/in/the-computer-prodigies-889323234/" target="_blank">
+                  <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                    <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </footer>
+          <script src="index.js"></script>
+</body>
+</html>
