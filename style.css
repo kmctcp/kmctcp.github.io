@@ -1,3 +1,9 @@
 html{
       scroll-behavior: smooth;
 }
+
+
+#main{
+      background-image: url('computer.jpg');
+      margin-top: -50px;
+}
